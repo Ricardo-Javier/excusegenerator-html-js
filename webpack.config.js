@@ -23,6 +23,9 @@ module.exports = {
     historyApiFallback: true,
     public: publicUrl
   },
+  node: {
+    fs: 'empty'
+},
   module: {
     rules: [
       {
